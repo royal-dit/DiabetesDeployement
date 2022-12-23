@@ -50,8 +50,8 @@ def predict_banknote(data:Diabetes):
 
 
 #5.run the api with uvicorn
-if __name__ =='__main__':
-    uvicorn.run(app,host='127.0.0.1',port=8001)
 # if __name__ =='__main__':
-#     app.run(host='0.0.0.0',port=8080)
+#     uvicorn.run(app,host='127.0.0.1',port=8001)
+if __name__ =='__main__':
+    main.run(host='0.0.0.0',port=8080)
 
